@@ -47,7 +47,7 @@ loginForm.addEventListener('submit', (e) => {
 firebase.auth().onAuthStateChanged(firebaseUser => {
 if(firebaseUser){ 
     console.log("logged in")
-    window.location.href = "C:\Users\ASCStudent\Documents\trumanapp\home\index.html";
+    window.location.href = "C:\Users\ASCStudent\Documents\TRUMNAPP\home\index.html";
 }else {
     console.log('not logged in')
 }
